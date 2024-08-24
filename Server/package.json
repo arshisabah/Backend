@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "inedx.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arshi Ssbah",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }app.get("/", (req,res) => {
+    res.send("<h1>Hlw</h1>");
+})
+}
